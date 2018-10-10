@@ -1,0 +1,30 @@
+groups:
+  scripts:
+    paths:
+      - "app/scripts"
+    order:
+      - "vendor/jquery-1.10.2.js"
+      - "..."
+  styles:
+    paths:
+      - "app/styles"
+  images:
+    paths:
+      - "app/images"
+  views:
+    paths:
+      - "app/views"
+
+bundles:
+  jquery:
+    version: "1.10.2"
+    url: "http://code.jquery.com/jquery-1.10.2.js"
+  underscore:
+    version: "1.5.2"
+    url: https://raw.github.com/jashkenas/underscore/1.5.2/underscore.js
+  backbone:
+    version: "1.1.0"
+    url: "https://raw.github.com/jashkenas/backbone/1.1.0/backbone.js"
+  handlebars:
+    version: "1.0.0"
+    url: "https://raw.github.com/wycats/handlebars.js/1.0.0/dist/handlebars.js"

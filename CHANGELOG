@@ -1,0 +1,148 @@
+v0.12.0
+  - bump the handlebars version to 4.0
+
+v0.11.6
+  - remove line numbers in sass
+
+v0.11.5
+  - bypass SSL verify in open-uri
+
+v0.11.4
+  - bump the tilt version to greater than 2.0.2
+
+v0.11.3
+  - remove BabelTemplate implementation, cause Tilt added an official one
+
+v0.11.2
+  - fix a bug of notify error
+  - downgrade the celluloid version to 0.16.x to avoid the annoy log
+
+v0.11.1
+  - bump babel version to v0.7
+  - return non-zero code when build failed
+
+v0.11.0
+  - supports `es6` and react `jsx` by babel
+
+v0.10.0
+  - introducing new directive `compile` and `context` to compile files
+
+v0.9.1
+  - add .yml .yaml and .txt to Tilt templates
+
+v0.9.0
+  - introducing environment for different environments
+
+v0.8.7
+  - support CDN in revision plugin
+
+v0.8.6
+  - always use binary mode on windows
+
+v0.8.5
+  - fix a windows mime-type bug
+
+v0.8.4
+  - fix the vendor path for bundles
+  - fix the sprite url config, now it's working again
+
+v0.8.3
+  - fix a windows md5sum bug cause it calculate in text mode by default
+
+v0.8.2
+  - fix a gzip mime-type bug in linux
+
+v0.8.1
+  - `tar` now sub prefix with envrionment paths
+
+v0.8.0
+  - updated all deps
+  - use rspec3 to replace the old test code
+  - bundles now support tar.gz file
+  - add a new directive `tar` to produce tar file
+  - remove the old default config entity `paths`, should always have `paths` in groups
+
+v0.7.3
+  - fix a merge bug from the latest version
+
+v0.7.2
+  - add a unstrict mode by default to replace the revision, change the original one to strict mode, use `-s` to trigger.
+
+v0.7.1
+  - prevent multiple instance running error
+
+v0.7.0
+  - lock the sass version to 3.2.19, cause compass not works perfectly with it
+  - remove Hpricot, use plain regex to support revision
+  - `revision` now is a hash, support `prefix`, move the `manifest` into `revision`, revision now has a `files` key
+
+v0.6.7
+  - bypass a windows platform expand_path bug in ruby v2.0.0
+
+v0.6.6
+  - lock the gem http to v0.5.0 and reel to 0.4.0
+
+v0.6.5
+  - upgrade uglifier to 2.5.0 cause uglifier 2.2.0 has IE 8 compatibility issues
+  - upgrade handlebars.rb to 0.1.2 cause handlebars version updated to 1.3.0
+
+v0.6.4
+  - copy task now support render and compress
+  - fix cache problem when same asset in different ainner task
+
+v0.6.3
+  - support sprite revision
+
+v0.6.2
+  - fix bin-packing algo problem
+  - add auto reload environment support
+  - add native path bundle support
+
+v0.6.1
+  - use `hpricot` to instead of `nokogiri`, because `nokogiri` has parse problem when `revision`
+
+v0.6.0
+  - add sprites support
+
+v0.5.1
+  - support handlebars partials. templates start with "_" will be treaded as partials/
+
+v 0.5.0
+  - ainner command now provides `check` and `install` commands to check and install vendor  dependencies
+
+v 0.4.6
+  - compat terminal-notifier with OS X mavericks
+
+v 0.4.5
+  - bump reel version to 0.4.0
+
+v 0.4.4
+  - glob pattern need to sort by alphabetically
+
+v 0.4.3
+  - fix the last `/` in `logical_path`
+  - multiple revision file support
+
+v 0.4.2
+  - use `sleep` to instead of `Process.wait`
+
+v 0.4.1
+  - `manifest.yml` support
+  - lots of badges support
+
+v 0.4.0
+  - revision support
+  - fix memory leak in `cache_miss?`
+  - quit `fsevent` process when `ctrl + c` triggered
+
+v 0.3.2
+  - fix Celluiod logger bug
+  - suggest windows user to use jruby instead
+
+v 0.3.1
+  - add `livereload` support
+
+v 0.3.0
+  - add `compass` support
+  - cache now supports `styles`
+  - more readable config file
