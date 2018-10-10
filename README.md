@@ -1,14 +1,14 @@
 # Ainner
 
-[![Gem Version](https://badge.fury.io/rb/ainner.png)](http://badge.fury.io/rb/ainner)   [![Build Status](https://travis-ci.org/daimakuai/ainner.png)](https://travis-ci.org/daimakuai/ainner)   [![Code Climate](https://codeclimate.com/repos/520fd56e56b10241f50f15a3/badges/e8beb45f55b5c1fa6142/gpa.png)](https://codeclimate.com/repos/520fd56e56b10241f50f15a3/feed)   [![Dependency Status](https://gemnasium.com/daimakuai/ainner.png)](https://gemnasium.com/SaitoWu/ainner)
+[![Gem Version](https://badge.fury.io/rb/ainner.png)](http://badge.fury.io/rb/ainner)   [![Build Status](https://travis-ci.org/daimakuai/ainner.png)](https://travis-ci.org/daimakuai/ainner)   [![Code Climate](https://codeclimate.com/repos/520fd56e56b10241f50f15a3/badges/e8beb45f55b5c1fa6142/gpa.png)](https://codeclimate.com/repos/520fd56e56b10241f50f15a3/feed)   [![Dependency Status](https://gemnasium.com/daimakuai/ainner.png)](https://gemnasium.com/daimakuai/ainner)
 
 Ainner is a full-featured HTML5 application assembler.
 
-![Ainner](http://cl.ly/image/2J0d1C0D3S0E/logo.png)
+![Ainner](http://cl.ly/image/2J0d1C0D3S0E1/logo.png)
 
 #### Screencast
 
-[![Screencast](http://cl.ly/image/000k0R400F30/Image%202014-04-29%20at%2010.20.12%20AM.png)](https://vimeo.com/71944672)
+[![Screencast](http://cl.ly/image/000k0R400F30/Image%202014-04-29%20at%2010.20.12%20AM1.png)](https://vimeo.com/719446721)
 
 * Fast!
 * Supports `Sass`, `Compass`, `Coffee`, `ECMAScript 6` and `React`.
